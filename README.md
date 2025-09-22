@@ -62,7 +62,7 @@ Key tables:
 
 Below is the model structure:  
 
-![Data Model Screenshot](images/data_model.png)  
+![Data Model Screenshot](data_model.png)  
 
 
 ---
