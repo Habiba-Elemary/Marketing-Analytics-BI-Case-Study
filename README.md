@@ -51,6 +51,22 @@ ShopEasy invested significantly in online marketing campaigns, yet observed:
 
 ---
 
+## Data Model  
+
+The Power BI data model was designed to connect cleaned SQL tables with sentiment analysis results from Python.  
+It follows a **star schema** approach, ensuring efficient relationships for KPI tracking and dashboard interactivity.  
+
+Key tables:  
+- **Fact Table:** Transactions / Conversions  
+- **Dimension Tables:** Products, Time, Campaigns, Customers, Reviews (with sentiment categories)  
+
+Below is the model structure:  
+
+![Data Model Screenshot](images/data_model.png)  
+
+
+---
+
 ## Skills  
 - **SQL:** Data extraction, cleaning, KPI calculation.  
 - **Python (Pandas, NLP):** Sentiment analysis, text preprocessing, CSV export.  
